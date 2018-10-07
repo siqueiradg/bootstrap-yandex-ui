@@ -1,0 +1,33 @@
+{
+  "name": "bootstrap-yandex-ui",
+  "version": "1.0.0",
+  "description": "Yandex Bootstrap 4 - Theme",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "node-sass --include-path scss core/scss/main.scss   theme/css/main.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/siqueiradg/bootstrap-yandex-ui.git"
+  },
+  "keywords": [
+    "yandex",
+    "boostrap",
+    "theme",
+    "free"
+  ],
+  "author": "siqueiradg",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/siqueiradg/bootstrap-yandex-ui/issues"
+  },
+  "homepage": "https://github.com/siqueiradg/bootstrap-yandex-ui#readme",
+  "dependencies": {
+    "bootstrap": "^4.1.3"
+  },
+  "devDependencies": {
+    "node-sass": "^4.9.3",
+    "nodemon": "^1.18.4"
+  }
+}
