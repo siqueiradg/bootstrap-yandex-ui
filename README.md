@@ -3,12 +3,15 @@
 ![Yandex - Bootstrap Theme](https://raw.githubusercontent.com/siqueiradg/bootstrap-yandex-ui/master/screenshot.png)
 
 
-Theme for Boostrap 4 inspired by Yandex UI applications.
+Theme for Bootstrap 4 inspired by Yandex UI applications.
 
 >Under development
 
 ## Components
 
+- Tabs
+- Modal
+- Forms
 - Lists
 - Photo Avatar
 - Dropdown
